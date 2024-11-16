@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="weather-app-window">
+        <div class="input-details">
+            <div class="container-1">
+                <div class="city-input">
+                    <input type="text" placeholder="city-name" id="input-information">
+                    <button class="search-button" id="search-btn"><img src="images/search.png" width="27"height="30"></button>
+                </div>
+                <div class="city-weather">
+                    <img src="images/clouds.png" width="250" height="250" id="weather-image">
+                    <h1 id="weather-temperature-header">Temperature</h1>
+                    <h2 id="weather-decription">Weather Description</h2>
+                </div>
+                <div class="date-details">
+                    <div id="date-1">date-1</div>
+                    <div id="date-2">date-2</div>
+                </div>
+                <div class="city-name" id="searched-city">City Name</div>
+            </div>
+        </div>
+        <div class="weather-details">
+            <div class="container-2">
+                <div class="weather-day" id="city-name-2">City Name</div>
+                <div class="weather-information">
+                    <div class="det wind">
+                        <div class="wind-container">
+                            <div>Wind</div>
+                            <div id="wind">X km/h</div>
+                            <div id="wind-direction">direction</div>
+                        </div>
+                    </div>
+                    <div class="det humadity">
+                        <div class="humadity-container">
+                            <div class="humadity-details">
+                                <div>Humadity</div>
+                                <div id="humadity">69%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="det feel">
+                        <div class="feel-container">
+                            <div class="feel-details">
+                                <div>Real Feel</div>
+                                <div id="real-feel">X°C</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="det pressure">
+                        <div class="pressure-container">
+                            <div class="pressure-details">
+                                <div>Pressure</div>
+                                <div id="pressure">Xmb</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="det sea-level">
+                        <div class="sea-level-container">
+                            <div class="sea-level-details">
+                                <div>Sea Level</div>
+                                <div id="sea-level">Xm</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="det temperature-history">
+                        <div class="temperature-history-container">
+                            <div>
+                                <div>Temperature History</div>
+                            </div>
+                            <div class="up">
+                                <img src="images/arrow.png" width="60" height="50">
+                                <span id="max-temp">X°C</span>
+                            </div>
+                            <div class="down">
+                                <img src="images/down.png" width="60" height="50">
+                                <span id="min-temp">X°C</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
